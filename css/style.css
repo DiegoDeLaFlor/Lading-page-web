@@ -134,4 +134,36 @@ body{
 .services{
     width: 100%;
     margin-top: 120px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.about__title{
+    color: var(--blacklight);
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.about__paragraph{
+    line-height: 1.7;
+}
+.about__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.about__icon{
+    width: 40px;
 }
